@@ -1,0 +1,339 @@
+*{
+    font-family: Inter, sans-serif;
+}
+html, body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navigation_bar{
+    display: flex;
+    margin: 16px 52px 16px 52px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav_elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.content_pic{
+    margin-left: -10px;
+    max-width: 100%;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.badge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 207px 134px 207px 82px;
+}
+.badge_txt_1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+}
+.badge_txt_2{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 114.815% */
+    letter-spacing: -1px;
+}
+.badge_txt_3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.badge_txt_4{
+    margin-top: 28px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.4px;
+}
+.main_class{
+
+}
+.logos_section{
+    width: 1336px;
+    padding: 52px;
+}
+.logos_content{
+}
+.logo_group{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #D0D5DD;
+    border-bottom: 1px solid #D0D5DD;
+}
+.banner_grid{
+}
+.cards{
+    margin: 52px 52px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.card_element1, .card_element2, .card_element3{
+    text-align: center;
+}
+.card1_txt_1, .card2_txt_1, .card3_txt_1{
+    margin-bottom: 0px;
+}
+.card1_txt_2, .card2_txt_2, .card3_txt_2{
+    margin-top: 0px;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 52px 52px 52px 52px;
+}
+.main{
+    display: flex;
+}
+.main_content {
+    display: flex;
+    flex-direction: row;
+}
+.main_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 114px;
+}
+
+.main_txt_1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+}
+.main_txt_2{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 114.815% */
+    letter-spacing: -1px;
+}
+.main_txt_3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.main_txt_4{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 117.647% */
+    letter-spacing: -0.4px;
+    padding-top: 24px;
+}
+.shop_now{
+    padding-top: 32px;
+}
+.shop_now_button{
+    border: none;
+    background-color: black;
+    text-align: center;
+    color: #FFF;
+    padding: 10px 24px;
+}
+.cta{
+
+}
+.image_placeholder{
+    border: 1px solid #D0D5DD;
+    border-radius: 15px;
+    margin: 52px 52px 52px 52px;
+}
+.cta_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 87px;
+    padding-bottom: 79px;
+}
+.cta_content_txt_1{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 128.571% */
+    letter-spacing: -0.4px;
+}
+.cta_content_txt_2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.input{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.4px;
+    border-bottom: 1px solid #D0D5DD;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 52px 52px 52px 52px;
+}
+.banner_image{
+    background-color: aqua;
+}
+.banner_image_txt{
+    position: absolute;
+    margin: 158px 427px 99px 430px;
+}
+.banner_image_txt_1{
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 128.571% */
+    letter-spacing: -0.4px;
+}
+.banner_image_txt_2{
+    padding-top: 13px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner_image_txt_3{
+    padding-top: 24px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.4px;
+}
+.footer{
+     background: #F9FAFB;
+}
+.footer_content{
+    display: flex;
+    padding: 72px 52px 32px 52px;
+}
+.footer_left_txt{
+    padding-top: 16px;
+    color: #475467;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer_left_icons{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.footer_right{
+}
+.footer_right_columns{
+    padding: 0px 52px 72px 694px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+.first_column_name, .second_column_name, .third_column_name{
+    color: #282828;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.data_1, .data_2, .data_3{
+    gap: 12px;
+}
+.data_1 p, .data_2 p, .data_3 p{
+    color: #5F6980;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.footer_bottom{
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 32px;
+}
+.bottom_pictures{
+    border-top: 1px solid #D0D5DD;
+    display: flex;
+    flex-direction: row;
+}
+.flags{
+    display: inline-flex;
+    gap: 32px;
+    align-items: center;
+    margin-left: 1004px;
+}
+.bottom_left_txt{
+    color: #5F6980;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.us{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.down{
+
+    display: flex;
+    align-items: center;
+}
+.usd{
+    display: flex;
+    align-items: center;
+}
+.bottom_pictures{
+}
